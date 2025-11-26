@@ -3,10 +3,9 @@ import Footer from './components/Footer.tsx'
 
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/home";
-import AdminPage from "./pages/admin";
 
 import './App.css'
-import SignUpPage from './pages/signup.tsx';
+import BlogPage from './pages/blogPage.tsx';
 import TeamPage from './pages/team.tsx';
 import AboutPage from './pages/about.tsx';
 
@@ -18,8 +17,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/signup" element={<SignUpPage />} />
-        <Route path="/admin" element={<AdminPage />} />
+        <Route path="/blog" element={<BlogPage />} />
         <Route path="/team" element={<TeamPage />} />
         <Route path="/about" element={<AboutPage />} />
 

@@ -10,7 +10,7 @@ export default function CallToActionSection() {
             fontSize={{ base: '3xl', md: '5xl' }}
             letterSpacing="widest"
           >
-            Sign Up To Newsletter
+            Read Our Blog
           </Heading>
 
           <Button
@@ -26,9 +26,9 @@ export default function CallToActionSection() {
               bg: 'gray.100',
               transform: 'scale(1.02)'
             }}
-            {...{ href: "/signup" }}
+            {...{ href: "/blog" }}
           >
-            Sign Up
+            Read Blog
           </Button>
         </Flex>
       </Container>

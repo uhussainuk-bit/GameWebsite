@@ -52,9 +52,9 @@ import {
                   bg="white"
                   color="black"
                   _hover={{ bg: 'gray' }}
-                  {...{ href: '/signup' }}
+                  {...{ href: '/blog' }}
                 >
-                  Sign Up To Newsletter
+                  Read Our Blog
                 </Button>
               </HStack>
               <IconButton
