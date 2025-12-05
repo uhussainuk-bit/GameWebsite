@@ -34,7 +34,7 @@ import {
             <Flex align="center" maxW="7xl" mx="auto">
               <Link href="/" _hover={{ textDecoration: 'none' }}>
                 <Heading size="4xl" color="white" letterSpacing="wide">
-                  INVERSION
+                  LOST SOCIETY
                 </Heading>
               </Link>
               <Spacer />
