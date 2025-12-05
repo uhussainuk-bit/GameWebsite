@@ -10,7 +10,7 @@ export default function Blog1() {
                         fontSize={{ base: '3xl', md: '5xl' }}
                         letterSpacing="widest"
                     >
-                        Building the Foundation: Movement & Early Room Design
+                        Movement & Early Room Design
                     </Heading>
 
                     <Text color="gray.300" fontSize={{ base: 'md', md: 'lg' }} maxW="800px">
