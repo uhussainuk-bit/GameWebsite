@@ -19,7 +19,7 @@ export default function Hero() {
         textAlign="center"
       >
         <Heading fontSize={{ base: '5xl', md: '7xl' }} letterSpacing="widest">
-          INVERSION
+          LOST SOCIETY
         </Heading>
         <Button
           size="lg"
