@@ -14,17 +14,17 @@ export default function Blog2() {
                     </Heading>
 
                     <Text color="gray.300" fontSize={{ base: 'md', md: 'lg' }} maxW="800px">
-                        One of our early goals for <strong>Inversion</strong> was to ground the puzzles in an
-                        ancient-world atmosphere without copying any specific civilisation. We studied Mediterranean
-                        ruins, labyrinth structures, burial chambers, and temple architecture to guide the way rooms
-                        look and feel.
+                        Our puzzle rooms are inspired by architectural elements found in ancient Mediterranean, 
+                        Middle Eastern, and North African civilisations. Instead of copying any historical site 
+                        directly, we took broad influences—stone masonry patterns, chamber layouts, and ritual-themed 
+                        environments—and shaped them into interactive puzzle spaces.
                     </Text>
 
                     <Text color="gray.500" fontSize={{ base: 'sm', md: 'md' }} maxW="700px">
-                        Each level is themed around a small narrative moment—such as retrieving a relic, navigating a
-                        collapsing hallway, or unlocking a forgotten chamber. From there, we build inversion points
-                        that reinforce the story. This approach makes the puzzles feel intentional and connected to the
-                        world rather than random mechanical challenges.
+                        Every level is built around a micro-story: unlocking a sealed chamber, restoring energy to a 
+                        forgotten mechanism, or navigating a labyrinth dedicated to ancient guardians. The inversion 
+                        mechanic plays into each narrative beat, making puzzles feel like part of the temple rather 
+                        than abstract challenges placed inside it.
                     </Text>
                 </Flex>
             </Container>
