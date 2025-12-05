@@ -14,17 +14,17 @@ export default function Blog1() {
                     </Heading>
 
                     <Text color="gray.300" fontSize={{ base: 'md', md: 'lg' }} maxW="800px">
-                        Our game, <strong>Inversion</strong>, is built around a simple idea: every room in the
-                        temple can be flipped between two states. Walls become paths, platforms move, and hidden
-                        routes are revealed. The challenge was to make this mechanic feel powerful without making
-                        puzzles random or frustrating.
+                        The core mechanic of <strong>Inversion</strong> is simple but powerful: ancient rooms 
+                        within the ruins can shift between two states. Platforms rise, walls rotate, paths appear, 
+                        and once-sealed sections become accessible. The challenge for us as developers was ensuring 
+                        this dual-state system stayed readable and logical for the player.
                     </Text>
 
                     <Text color="gray.500" fontSize={{ base: 'sm', md: 'md' }} maxW="700px">
-                        To keep things readable, we added clear visual markers on objects that change when a
-                        room inverts. Each puzzle uses a small number of possible configurations so players can
-                        plan ahead instead of guessing. This post covers the early prototypes where we tested
-                        how many inversion points a single room could handle before it became too confusing.
+                        To achieve this, we added clear visual markers to objects affected by inversion—allowing 
+                        players to anticipate changes rather than rely on guesswork. Early prototypes revealed how 
+                        easily puzzles could become overwhelming, so we refined the mechanic to keep each room’s 
+                        inversion meaningful, intuitive, and satisfying to solve.
                     </Text>
                 </Flex>
             </Container>
