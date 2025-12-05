@@ -10,21 +10,21 @@ export default function Blog3() {
                         fontSize={{ base: '3xl', md: '5xl' }}
                         letterSpacing="widest"
                     >
-                        Playtesting, Balance & Accessibility Improvements
+                        Polishing Lost Society: Stability, Testing & Player Feedback
                     </Heading>
 
                     <Text color="gray.300" fontSize={{ base: 'md', md: 'lg' }} maxW="800px">
-                        Early playtesting sessions helped us understand how players interacted with the inversion 
-                        mechanic. Some testers didn’t immediately notice when the room changed state, which made 
-                        certain puzzles feel confusing or unfair. This feedback shaped our next development sprint.
+                        After completing the core rooms, we shifted focus towards polishing gameplay and ensuring a 
+                        stable player experience. Playtesting revealed key improvements we needed to make, such as 
+                        refining movement sensitivity, smoothing level transitions, and improving visual clarity in dark 
+                        areas of the temple.
                     </Text>
 
                     <Text color="gray.500" fontSize={{ base: 'sm', md: 'md' }} maxW="700px">
-                        We improved clarity by enhancing visual and audio cues, adding colour-shifted elements, 
-                        and introducing slight camera motion during inversion. Accessibility was another key focus— 
-                        simplifying control schemes, reducing unnecessary visual noise, and ensuring puzzle clues 
-                        weren't solely colour-dependent. These refinements made the gameplay smoother, fairer, and 
-                        more enjoyable for a wider range of players.
+                        We also enhanced UI elements, adjusted puzzle timing, and ensured all room-unlock systems behaved 
+                        consistently. Stability became a major goal—removing bugs, tightening physics interactions, and 
+                        optimising lighting and scripts. These changes resulted in a more seamless experience that feels 
+                        polished and ready for players to explore.
                     </Text>
                 </Flex>
             </Container>
