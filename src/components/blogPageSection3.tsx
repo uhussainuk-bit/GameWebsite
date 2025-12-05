@@ -14,19 +14,17 @@ export default function Blog3() {
                     </Heading>
 
                     <Text color="gray.300" fontSize={{ base: 'md', md: 'lg' }} maxW="800px">
-                        After building our first set of puzzle rooms for <strong>Inversion</strong>, we carried out
-                        informal playtests with other students. One common issue was that some players didn&apos;t
-                        immediately realise when a room had inverted, which made certain puzzles feel harder than
-                        intended.
+                        Early playtesting sessions helped us understand how players interacted with the inversion 
+                        mechanic. Some testers didn’t immediately notice when the room changed state, which made 
+                        certain puzzles feel confusing or unfair. This feedback shaped our next development sprint.
                     </Text>
 
                     <Text color="gray.500" fontSize={{ base: 'sm', md: 'md' }} maxW="700px">
-                        To improve clarity, we added stronger audio cues, a subtle screen shake, and more obvious 
-                        colour changes for objects that move after inversion. We also restructured the level order 
-                        so new mechanics are introduced slowly and fairly. Accessibility was another focus: we 
-                        simplified controls, reduced visual clutter, and ensured key information isn&apos;t shown 
-                        through colour alone. These changes help make the game more approachable while maintaining 
-                        the challenge.
+                        We improved clarity by enhancing visual and audio cues, adding colour-shifted elements, 
+                        and introducing slight camera motion during inversion. Accessibility was another key focus— 
+                        simplifying control schemes, reducing unnecessary visual noise, and ensuring puzzle clues 
+                        weren't solely colour-dependent. These refinements made the gameplay smoother, fairer, and 
+                        more enjoyable for a wider range of players.
                     </Text>
                 </Flex>
             </Container>
