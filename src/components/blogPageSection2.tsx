@@ -10,7 +10,7 @@ export default function Blog2() {
                         fontSize={{ base: '3xl', md: '5xl' }}
                         letterSpacing="widest"
                     >
-                        Designing Themed Rooms: From Temples to Science Labs
+                       Designing Themed Puzzle Rooms
                     </Heading>
 
                     <Text color="gray.300" fontSize={{ base: 'md', md: 'lg' }} maxW="800px">
