@@ -10,21 +10,20 @@ export default function Blog1() {
                         fontSize={{ base: '3xl', md: '5xl' }}
                         letterSpacing="widest"
                     >
-                        Designing the Inversion Mechanic
+                        Building the Foundation: Movement & Early Room Design
                     </Heading>
 
                     <Text color="gray.300" fontSize={{ base: 'md', md: 'lg' }} maxW="800px">
-                        The core mechanic of <strong>Inversion</strong> is simple but powerful: ancient rooms 
-                        within the ruins can shift between two states. Platforms rise, walls rotate, paths appear, 
-                        and once-sealed sections become accessible. The challenge for us as developers was ensuring 
-                        this dual-state system stayed readable and logical for the player.
+                        In the early stages of developing <strong>Lost Society</strong>, our main priority was 
+                        creating responsive first-person movement. Jumping, sprinting, and parkour mechanics form the 
+                        backbone of the gameplay, so we focused heavily on making them smooth, predictable, and fun.
                     </Text>
 
                     <Text color="gray.500" fontSize={{ base: 'sm', md: 'md' }} maxW="700px">
-                        To achieve this, we added clear visual markers to objects affected by inversion—allowing 
-                        players to anticipate changes rather than rely on guesswork. Early prototypes revealed how 
-                        easily puzzles could become overwhelming, so we refined the mechanic to keep each room’s 
-                        inversion meaningful, intuitive, and satisfying to solve.
+                        Once the movement system felt solid, we designed the introductory rooms. These areas guide the 
+                        player through basic mechanics while establishing the mysterious atmosphere of the abandoned 
+                        temple. The easy room introduces core actions without overwhelming the player, ensuring a smooth 
+                        learning curve before the more complex challenges ahead.
                     </Text>
                 </Flex>
             </Container>
