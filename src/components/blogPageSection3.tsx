@@ -10,7 +10,7 @@ export default function Blog3() {
                         fontSize={{ base: '3xl', md: '5xl' }}
                         letterSpacing="widest"
                     >
-                        Polishing Lost Society: Stability, Testing & Player Feedback
+                        Polishing Gameplay & Player Feedback
                     </Heading>
 
                     <Text color="gray.300" fontSize={{ base: 'md', md: 'lg' }} maxW="800px">
