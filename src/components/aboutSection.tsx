@@ -12,20 +12,28 @@ export default function AboutSection() {
           <SimpleGrid columns={{ base: 1, md: 2 }} w="100%" gap={{ base: 10, md: 16 }}>
             <VStack align="start" gap={4}>
               <Text fontSize={{ base: 'md', md: 'lg' }}>
-                <strong>Inversion</strong> is a strategic puzzle game set in a distorted sci-fi world. The gameplay blends thought provoking puzzles and difficult choices, offering players deep, replayable experiences.
+                <strong>Lost Society</strong> is a fast-paced first-person puzzle and parkour adventure set across ancient temples 
+                and advanced scientific laboratories. Players awaken with no memory and must navigate a series of themed rooms 
+                filled with environmental challenges and interactive puzzle mechanisms.
               </Text>
+
               <Text fontSize={{ base: 'md', md: 'lg' }}>
-                Built in Unity, the game is currently in its pre alpha development phase, with an alpha release targeted for December 2025. Our goal is to deliver polished mechanics and a compelling atmosphere.
+                Built in Unity, the game focuses on responsive movement—sprinting, jumping, platforming—and meaningful puzzle 
+                interactions, including pressure plates, activation switches, and timed obstacle sequences. Each room is designed 
+                to gradually increase difficulty, guiding the player from simple introductory areas toward complex, skill-based challenges.
               </Text>
+
               <Text fontSize={{ base: 'md', md: 'lg' }}>
-                Stay tuned for regular updates as we build out the universe, refine core systems, and begin community testing.
+                Lost Society is currently in active development, with a strong focus on polished gameplay, stable transitions, 
+                intuitive UI, and a clear progression system. Future updates will expand the room variety, refine mechanics, 
+                and introduce additional narrative elements as the mystery of the forgotten society unfolds.
               </Text>
             </VStack>
 
             <Box flex="1" textAlign="center">
               <Image
-                src="InversionTitle.png"
-                alt="In-game concept"
+                src="LostSocietyTitle.png"
+                alt="Lost Society Concept Art"
                 objectFit="cover"
                 borderRadius="md"
                 maxW={{ base: '100%', md: '400px' }}
